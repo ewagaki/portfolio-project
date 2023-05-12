@@ -1,5 +1,5 @@
 :root {
-  --primary-color: #05050c;
+  --primary-color: #212194;
   --secondary-color: #fff;
 }
 
@@ -32,7 +32,7 @@ p {
   line-height: 2;
   font-size: 24px;
 }
-btn-branding {
+.btn-branding {
   background: var(--primary-color);
   border-radius: 4px;
   color: white;
