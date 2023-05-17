@@ -11,6 +11,12 @@ h1 {
   font-size: 96px;
   color: #b44d4d;
 }
+.about h1 {
+  font-size: 44px;
+}
+.about h2 {
+  font-size: 34px;
+}
 p {
   font-weight: normal;
   font-size: 16px;
@@ -52,6 +58,7 @@ p {
 .project-description {
   padding: 120px 60px;
 }
+
 @media (max-width: 900px) {
   h1 {
     font-size: 60px;
