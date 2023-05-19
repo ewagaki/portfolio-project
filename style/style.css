@@ -86,6 +86,33 @@ p {
 .content {
   margin: 30px;
 }
+.logo {
+  max-width: 150px;
+  border-radius: 50%;
+}
+nav {
+  padding: 20px 0;
+}
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 20px;
+  text-decoration: none;
+}
+nav a {
+  text-decoration: none;
+  color: #272142;
+  transition: all 15sec ease-in-out;
+}
+nav li.active a {
+  color: #212194;
+}
 @media (max-width: 900px) {
   h1 {
     font-size: 60px;
