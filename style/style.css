@@ -1,6 +1,6 @@
 :root {
   --primary-color: #212194;
-  --secondary-color: #fff;
+  --secondary-color: #272142;
   --default-font-family: "PT Serif", serif;
 }
 
@@ -9,22 +9,25 @@ body {
   font-family: "Poppins", sans-serif;
 }
 h1 {
-  font-size: 96px;
-  color: #b44d4d;
+  font-size: 70px;
+  color: var(--secondary-color);
 }
 .about h1 {
   font-size: 44px;
+  font-family: var(--default-font-family);
 }
 .about h2 {
   font-size: 34px;
+  font-family: var(--default-font-family);
 }
 p {
   font-weight: normal;
   font-size: 16px;
   line-height: 1.5;
+  font-family: var(--default-font-family);
 }
 .heading {
-  background: var(--secondary-color);
+  background: #fff;
   text-align: center;
   padding: 160px 20px;
 }
@@ -32,7 +35,7 @@ p {
   font-size: 36px;
   font-weight: bold;
   margin: 0;
-  color: #272142;
+  color: var(--secondary-color);
 }
 .heading h2 {
   font-weight: normal;
@@ -55,6 +58,14 @@ p {
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
+}
+a {
+  text-decoration: none;
+  color: #272142;
+  transition: all 15sec ease-in-out;
+}
+.active a {
+  color: #212194;
 }
 .content-container {
   padding: 120px 60px;
@@ -106,6 +117,23 @@ nav li {
   text-decoration: none;
 }
 nav a {
+  text-decoration: none;
+  color: #272142;
+  transition: all 15sec ease-in-out;
+}
+nav li.active a {
+  color: #212194;
+}
+.icons {
+  font-size: 28px;
+  text-align: center;
+}
+.icons a {
+  color: #272142;
+  transition: all 15sec ease-in-out;
+}
+.mail {
+  font-size: 28px;
   text-decoration: none;
   color: #272142;
   transition: all 15sec ease-in-out;
