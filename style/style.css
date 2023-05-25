@@ -42,6 +42,10 @@ p {
   line-height: 2;
   font-size: 24px;
 }
+.index a {
+  color: #212194;
+  text-decoration: underline;
+}
 .btn-branding {
   background: var(--primary-color);
   border-radius: 4px;
